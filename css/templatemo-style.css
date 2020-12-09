@@ -5,13 +5,22 @@ The Town
 https://templatemo.com/tm-525-the-town
 
 */
+.center_picture {
+  display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.black{
+  color: black;
+}
 
 html {
   font-size: 18px;
-}
-
+ }
 body {
-  color: #8f8f8f;
+  color: black;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -20,12 +29,6 @@ a {
   transition: all 0.3s ease;
 }
 
-.center {
-  display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 70%;
-}
 
 a:hover,
 a:focus {
@@ -65,7 +68,7 @@ a:focus {
 
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
-  color: white;
+  color: black;
   background-color: #73c1f6;
 }
 
@@ -85,7 +88,7 @@ a:focus {
 }
 
 .navbar-brand {
-  color: white;
+  color:white;
   font-size: 1.4rem;
   font-weight: bold;
 }
@@ -104,7 +107,7 @@ a:focus {
 }
 
 .tm-nav-link {
-  color: white;
+  color:whitesmoke;
 }
 
 .tm-navbar.scroll .tm-nav-link {
@@ -422,13 +425,14 @@ figure.effect-honey:hover h2 i {
 /* Contact */
 
 #contact {
-  color: white;
-  background-image: url(../img/the-town-bg-02.jpg);
+  color:white;
+  background-image: url(../img/Screenshot\ \(23\).png);
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 850px;
+  background-size:cover;
+  height: 9000px;
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 400px;
   padding-top: 160px;
 }
 
@@ -441,7 +445,7 @@ figure.effect-honey:hover h2 i {
 .tm-underline-inner {
   width: 25%;
   height: 8px;
-  background: white;
+  background:black;
 }
 
 .tm-contact-item {
