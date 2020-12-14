@@ -33,7 +33,13 @@
 /*---------------------------------------------------------------------
     skeleton
 ---------------------------------------------------------------------*/
-
+.navbar-brand {
+	color:black;
+	font-size: 1.6rem;
+	font-weight: bold;
+  }.ui-helper-hidden {
+	display: none;
+}
 body {
 	color: #666666;
 	font-size: 14px;
