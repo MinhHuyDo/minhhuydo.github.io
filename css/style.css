@@ -33,25 +33,53 @@
 /*---------------------------------------------------------------------
     skeleton
 ---------------------------------------------------------------------*/
+.super_big_text{
+	color:white;
+	font-size: 3.5rem;
+	text-align:center;
+}
+
+.big_text{
+	color: white;
+	font-size:  2.0rem;
+	
+}
+.biger_text{
+	color: white;
+	font-size:  2.5rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
 .center_picture {
 	display: block;
 	  margin-left: auto;
 	  margin-right: auto;
-	  width: 70%;
+	  width: 60%;
   }
-  
+  .link{	
+	color: MediumAquaMarine;
+	font-size: large;
+	text-align: justify;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+
+  }
   .black{
-	color: black;
+	color: white;
+	font-size: large;
+	text-align: justify;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
   }
 .Team_logo {
 	color:black;
-	font-size: 2.0rem;
+	
 	font-weight: bold;
   }.ui-helper-hidden {
 	display: none;
 }
 body {
-	color: #666666;
+	color:black;
 	font-size: 14px;
 	font-family: 'poppins', sans-serif;
 	line-height: 1.80857;
@@ -87,7 +115,7 @@ h6 {
 }
 
 h1 {
-	font-size: 24px
+	font-size: 40px
 }
 
 h2 {
@@ -375,7 +403,7 @@ a.readmore_bt {
 .loader_bg {
     position: fixed;
     z-index: 9999999;
-    background: #fff;
+    background:black;
     width: 100%;
     height: 100%;
 }
@@ -475,7 +503,7 @@ a.readmore_bt {
 ---------------------------------------------------------------------*/
 
 header {
-    background: #003;
+    background:MediumAquaMarine;
     min-height: 122px;
 }
 
@@ -1748,7 +1776,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .slider_cont_section h4 {
-    color: #006;
+    color:blue;
     font-size: 35px;
     font-weight: 600;
     padding: 0;
