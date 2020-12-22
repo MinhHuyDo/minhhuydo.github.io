@@ -74,9 +74,9 @@
 .Team_logo {
 	color:black;
 	font-size:  2.5rem;
-	
 	font-weight: bold;
-  }.ui-helper-hidden {
+  }
+  .ui-helper-hidden {
 	display: none;
 }
 body {
